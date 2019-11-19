@@ -1,0 +1,179 @@
+/*Imported fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+/*Bootstrap CSS edits*/
+
+   .btn-outline-info
+   {
+      color: #AD63CF;
+      border-color: #AD63CF;
+   }
+
+   .btn-outline-info:hover
+   {
+      color: #fff;
+      background-color: #AD63CF;
+      border-color: #AD63CF;
+   }
+
+
+   .bg-info
+   {
+      background-color: #AD63CF !important;
+   }
+
+   .progress
+   {
+      background-color: rgb(30, 30, 30);
+      -webkit-box-shadow: none;
+      box-shadow: none;
+   }
+
+/* Div backgrounds */
+
+   .bg1
+   {
+      background-color:#252525;
+   }
+
+   .bg2
+   {
+      background-color:#313131;
+   }
+
+/*Div common CSS*/
+
+   div
+   {
+      font-family: 'Nunito Sans', sans-serif;
+   }
+
+   div h1
+   {
+      text-align: center;
+      color: #12C9FF;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+   }
+
+   div h2
+   {
+      text-align: center;
+      color: #AD63CF;
+      font-size: 0.8em;
+      font-family: 'Roboto', sans-serif;
+      font-style: italic;
+   }
+
+   div h3
+   {
+      text-align: center;
+      color: white;
+      font-size: 1em;
+   }
+
+   div p
+   {
+      color: white;
+   }
+
+   div hr
+   {
+      width: 50%;
+      border-color: #AD63CF;
+      margin-bottom: 2em;
+   }
+
+/*Head div*/
+
+   .head
+   {
+      position: relative;
+   }
+
+   .head img
+   {
+      height: 750px;
+      width: 100%;
+      filter: brightness(40%);
+      z-index: -1;
+   }
+
+   .head h1
+   {
+      position: absolute;
+      left: 0;
+      top: 30%;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 8em;
+   }
+
+   .head p
+   {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: 2em;
+   }
+
+/*Profile div*/
+
+   .profile
+   {
+      padding-top: 3em;
+      padding-left: 8em;
+      padding-right: 8em;
+      padding-bottom: 3em;
+      text-align: justify;
+   }
+
+   .CV
+   {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+   }
+
+/*Skills div*/
+
+   .skills
+   {
+      padding-top: 3em;
+      padding-left: 8em;
+      padding-right: 8em;
+      padding-bottom: 3em;
+   }
+
+   .skills h3
+   {
+      color: #12C9FF;
+      font-family: 'Roboto', sans-serif;
+      padding-top: 3em;
+      text-decoration: underline;
+      font-weight: bold;
+   }
+
+   .skills p
+   {
+      text-align: center;
+      padding-top: 1.2em;
+      margin-bottom: 0.1em;
+   }
+
+/*Works div*/
+
+   .works
+   {
+      padding-top: 3em;
+      padding-left: 8em;
+      padding-right: 8em;
+      padding-bottom: 3em;
+   }

@@ -1,0 +1,183 @@
+/*Imported fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+/*Div general css*/
+
+div
+{
+   font-family: 'Nunito Sans', sans-serif;
+}
+
+/*Info bar*/
+
+.button_sidebar
+{
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.sidebar
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #222222;
+    transition: 0.5s;
+    color: white;
+}
+
+.sidebar h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.sidebar h2
+{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.profile_pic
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.sidebar li
+{
+    list-style-type: none;
+    text-align: justify;
+}
+
+[class^="icon"]
+{
+    width: 26px;
+    height: auto;
+    top: 0;
+    left: -5;
+    position: left;
+    vertical-align: center;
+    margin-right: 10px;
+}
+
+.icon_home
+{
+    top: 10px;
+}
+
+
+.git_logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.traits li
+{
+    list-style-type: disc;
+    margin-left: 5em;
+}
+
+/*Sidebar scrollbar*/
+
+/* width */
+div.sidebar::-webkit-scrollbar
+{
+    width: 10px;
+    margin-right: 5px;
+}
+
+/* Track */
+div.sidebar::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 0px grey; 
+}
+
+/* Handle */
+div.sidebar::-webkit-scrollbar-thumb
+{
+    background: #AD63CF; 
+    border-radius: 10px;
+}
+
+/*Main content*/
+
+body
+{
+    background-color: lightgray;
+}
+
+.main
+{
+    border-radius: 2em;
+    background-color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.main h1
+{
+    padding-top: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+hr
+{
+    width: 90%;
+    border-color: grey;
+}
+
+/*Categories*/
+
+.category
+{
+    padding-bottom: 1.5em;
+    text-align: justify;
+}
+
+.category p
+{
+    margin-top: 1.2em;
+    text-align: center;
+    color: purple;
+}
+
+.category h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}
+
+.category h3
+{
+    font-size: 1em;
+    color: rgb(100,100,100);
+}
